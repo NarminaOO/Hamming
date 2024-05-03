@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
 #include "DecodeH.cpp" 
 
-TEST(HammingDecodingTest, NoErrorPacketDecoding) 
+TEST(HammingDecodingTest, Test1) 
 {
     short packet = 0b0001010111000111; 
     testing::internal::CaptureStdout();
@@ -11,7 +11,7 @@ TEST(HammingDecodingTest, NoErrorPacketDecoding)
 }
 
 
-TEST(HammingDecodingTest, UnknownErrorHandling) {
+TEST(HammingDecodingTest, Test2) {
     short packet = 0b0001010111011111; 
     testing::internal::CaptureStdout();
     decodeHamming(packet);
