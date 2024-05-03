@@ -1,4 +1,4 @@
-## Hamming 8-4
+## Hamming 8-4 
 These two folders (encode, decode) contain codes for encoding and decoding data using the Hamming 8/4 code.
 Hamming 8/4 code is a specific type of Hamming code used for error correction in binary data. 
 
